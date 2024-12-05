@@ -1,0 +1,21 @@
+{
+  "name": "cicd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+   
+   "test": "set NODE_ENV=test&& jest"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "expressjs": "^1.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

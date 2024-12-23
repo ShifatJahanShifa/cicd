@@ -1,5 +1,5 @@
-const { add } = require('./index'); // Import only the add function
-const app = require('./index'); // Import the app
+const { app, add } = require('./index'); 
+// const app = require('./index');
 const http = require('http');
 
 let server;

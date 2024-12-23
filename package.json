@@ -2,10 +2,12 @@
   "name": "cicd",
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
-   
-   "test": "set NODE_ENV=test&& jest"
-    
+    "start": "node index.js",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -13,9 +15,12 @@
   "description": "",
   "dependencies": {
     "express": "^4.21.1",
-    "expressjs": "^1.0.1"
+    "expressjs": "^1.0.1",
+    "http": "^0.0.1-security"
+    
   },
   "devDependencies": {
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
   }
 }

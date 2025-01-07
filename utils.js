@@ -3,5 +3,4 @@ function add(a, b) {
     if (isNaN(b)) return "Invalid Input";
     return parseInt(a) * parseInt(b);
 }
-
 module.exports = add;
